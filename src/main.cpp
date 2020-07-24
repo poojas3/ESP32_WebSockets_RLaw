@@ -23,7 +23,7 @@ void setup() {
 }
 
 void loop() {
-    onboard_led.on = millis() % 1000 < 500;
+    onboard_led.on = millis() % 1000 < 5;
     onboard_led.update();
     led1.on = millis() % 2000 < 1000;
     led1.update();
